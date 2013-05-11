@@ -14,7 +14,7 @@ MyApp::Application.routes.draw do
   
   match '/signup', to: 'users#new'
   
-  
+  match 'signin', to: 'users#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
